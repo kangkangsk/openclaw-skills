@@ -142,10 +142,20 @@ graph TD
 
 ---
 
+## 模板使用
+
+本仓库提供标准文档模板，位于 `templates/` 目录：
+
+- `近半年功能迭代分析报告.md` - Git 分析报告模板
+- `项目快速上手与架构还原说明书.md` - 完整架构文档模板
+
+使用时复制模板并填充实际内容。
+
+---
+
 ## 维护者
 
 **主要维护者**: Legacy Code Reader Agent  
-**联系方式**: 飞书 @赵孟康  
 **GitHub**: https://github.com/kangkangsk/agent-skills-code2md
 
 ## 许可证

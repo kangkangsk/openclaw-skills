@@ -120,18 +120,17 @@ Test-Path "<代码目录>\.git"
 
 **用户请求**:
 ```
-逆向解析下这个模块，E:\ResourceCode\hunan-cmcc\isa-wm-service\isa-wm-service-feellib，
-输出文档放在 E:\ResourceCode\hunan-cmcc\isa-wm-service\isa-wm-service-feellib\docs 下
+逆向解析下这个模块，<代码目录路径>，输出文档放在 <文档输出目录路径> 下
 ```
 
 **正确响应**:
 ```
 收到！在开始逆向分析之前，请确认以下信息：
 
-📁 **代码目录**: `E:\ResourceCode\hunan-cmcc\isa-wm-service\isa-wm-service-feellib`
+📁 **代码目录**: `<代码目录路径>`
    - 请确认这是需要分析的完整代码库路径
    
-📂 **文档输出目录**: `E:\ResourceCode\hunan-cmcc\isa-wm-service\isa-wm-service-feellib\docs`
+📂 **文档输出目录**: `<文档输出目录路径>`
    - 请确认文档输出位置
 
 ✅ 确认后我将立即开始分析...
@@ -153,17 +152,17 @@ Test-Path "<代码目录>\.git"
 
 **用户请求**:
 ```
-分析一下 E:\projects\my-project 这个项目
+分析一下 <项目路径> 这个项目
 ```
 
 **正确响应**:
 ```
 收到！在开始逆向分析之前，请确认以下信息：
 
-📁 **代码目录**: `E:\projects\my-project`
+📁 **代码目录**: `<项目路径>`
    - 请确认这是需要分析的完整代码库路径
    
-📂 **文档输出目录**: `E:\projects\my-project\docs`（默认）
+📂 **文档输出目录**: `<项目路径>/docs`（默认）
    - 我将输出到代码目录下的 docs 子目录
    - 如需修改，请告诉我具体路径
 
@@ -174,18 +173,18 @@ Test-Path "<代码目录>\.git"
 
 **用户请求**:
 ```
-逆向解析 C:\project\code
+逆向解析 <可疑路径>
 ```
 
 **正确响应**:
 ```
 收到！在开始逆向分析之前，请确认以下信息：
 
-📁 **代码目录**: `C:\project\code`
+📁 **代码目录**: `<可疑路径>`
    - ⚠️ 请仔细检查路径是否正确
    - 常见错误：拼写错误、缺少层级、盘符错误
    
-📂 **文档输出目录**: `C:\project\code\docs`（默认）
+📂 **文档输出目录**: `<可疑路径>/docs`（默认）
    - 请确认文档输出位置
 
 ✅ 确认后我将立即开始分析...
